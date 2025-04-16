@@ -27,7 +27,7 @@ void obterCarta(Carta *c) {
     scanf(" %2s", c->estado);
     getchar();
 
-    printf("Digite o Código da carta (ex: A01): ");
+    printf("Digite o Código da carta (ex: A01 Carta1 ou B01 Carta2): ");
     scanf(" %3s", c->codigo);
     getchar();
 
